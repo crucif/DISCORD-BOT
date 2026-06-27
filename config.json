@@ -1,0 +1,12 @@
+{
+  "prefix": ",",
+  "ownerIds": [
+    "PASTE_YOUR_USER_ID_HERE"
+  ],
+  "nukeWhitelist": [
+    "PASTE_YOUR_USER_ID_HERE"
+  ],
+  "relayMode": "same-channel",
+  "relayChannelId": "",
+  "reactionRoles": []
+}
