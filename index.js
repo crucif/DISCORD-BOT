@@ -24,7 +24,7 @@ const snipes = new Map();
 if (!fs.existsSync(BLACKLIST_FILE)) {
   fs.writeFileSync(BLACKLIST_FILE, JSON.stringify(["test word"], null, 2));
 }
-const path = require("path");
+
 const commands = new Map();
 
 const commandFiles = fs.readdirSync(path.join(__dirname, "commands"))
