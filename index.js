@@ -35,10 +35,7 @@ for (const file of commandFiles) {
   commands.set(command.name, command);
 } 
 
-let bannedWords = JSON.parse(fs.readFileSync(BLACKLIST_FILE, "utf8"));
-
-function saveBlacklist() {
-  fs.writeFileSync(BLACKLIST_FILE, JSON.stringify(bannedWords, null, 2));
+let bannedWords = JSON.parse(fs.readFileSync(BLACKLIST_FILE, "utf8"));  
 }
 
 const client = new Client({
