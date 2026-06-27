@@ -36,7 +36,7 @@ for (const file of commandFiles) {
 } 
 
 let bannedWords = JSON.parse(fs.readFileSync(BLACKLIST_FILE, "utf8"));  
-}
+
 
 const client = new Client({
   intents: [
